@@ -1,0 +1,22 @@
+{
+  "name": "apex-tracker",
+  "version": "1.0.0",
+  "description": "tracks apex legends status",
+  "main": "server.js",
+  "scripts": {
+    "start": "start  server",
+    "server":"nodemon server"
+  },
+  "author": "Supriya Yadav",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
